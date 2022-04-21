@@ -26,5 +26,5 @@ axios(url)
   .catch((err) => console.log(err));
 
 app.listen(PORT, () =>
-  console.log(`Good News: the server is really running on port ${PORT}`)
+  console.log(`Good News: the server is really being served on port ${PORT}`)
 );
